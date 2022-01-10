@@ -10,6 +10,8 @@ const modalClose2 = $('.header__button')
 
 const modalOrderTitle = $('.modal__title')
 
+const modalOrderTitle2 = $('.action__title')
+
 const modalOrderInput = $('.modal__input')
 
 modalBtn.click(function(){
@@ -64,4 +66,27 @@ $('.modal').submit(function(event){
     }
   })
 });  
+
+$('.communication__form').submit(function(event){
+  event.preventDefault();
+  $.ajax({
+    url: 'https://jsonplaceholder.typicode.com/todos',
+    type: 'POST',
+    data: $(this).serialize(),
+    statusCode: {
+    201: function(data) {
+      this.sucсess(data);
+      }
+    },
+    sucсess(data){
+      console.log(modalOrderTitle2);
+      modalOrderTitle2.text('Спасибо ваша заявка принята, номер заявки' + data.id)
+      $('communication__form').slideUp(300);
+    },
+    error(){
+      modalOrderTitle2.text('Что-то пошло не так')
+    }
+  })
+});  
+
 
