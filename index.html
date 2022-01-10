@@ -222,111 +222,48 @@
     
 
     </main>
-<div class="container_form2 modal">
-  <button class="modal__button"><img class="modal__button-img" src="img/cross.svg" alt="Крестик,закрывающий модальное окно"></button>
-            <div class="form__communication action">            
-              <h2 class="action__title">Ты можешь помочь нам!</h2>
-              <p class="action__subtitle">Хочешь забрать питомца, стать волонтером, или опекуном? <span class="communication__span">Свяжись с нами!</span> </p>
-              <div class="form-flex">
-                <ul class="communication__list">
-                  <li class="communication__item">
-                    <div class="flex1-communication">
-                      <img src="img/call.svg" alt="" class="communication-call">
-                      <span class="communication-description">8 (849) 300 - 39 -57</span>
-                    </div>
-                  </li>
-                  <li class="communication__item">
-                    <div class="flex2-communication">
-                      <img src="img/email.svg" alt="" class="communication-email">
-                      <span class="communication-description">FriendlyHouse@gmail.com</span>
-                    </div>    
-                  </li>
-                </ul>
-                <p class="connection-description">Или оставь свои контакты и мы сами свяжемся с тобой!</p>
-              </div>
-              <fieldset class="action__fieldset">
-                <fieldset class="tel-fieldset">
-                  <label for="phone">Номер телефона</label>
-                  <input id="phone" type="tel" class="action__input" value=""> 
-                </fieldset>
-                <fieldset class="fieldset-email">
-                  <label for="email">E-mail</label>
-                  <input id="email" type="email" class="action__input" value="">
-                </fieldset>
-              </fieldset>
-              <div class="auto-button">
-                  <button class="action__button" type="submit">
-                    <img src="img/lapa-form.png" alt="Маленькая лапка" class="action__button-img">
-                    <p class="auto-button__description">Отправить</p>
-                  </button>
-              </div>
-            </div>
-          </div>
 
-          <div class="container_form3 modal">
-  <button class="modal__button"><img class="modal__button-img" src="img/cross.svg" alt="Крестик,закрывающий модальное окно"></button>
-            <div class="form__communication action">            
-              <h2 class="action__title">Ты можешь помочь нам!</h2>
-              <p class="action__subtitle">Хочешь забрать питомца, стать волонтером, или опекуном? <span class="communication__span">Свяжись с нами!</span> </p>
-              <div class="form-flex">
-                <ul class="communication__list">
-                  <li class="communication__item">
-                    <div class="flex1-communication">
-                      <img src="img/call.svg" alt="" class="communication-call">
-                      <span class="communication-description">8 (849) 300 - 39 -57</span>
-                    </div>
-                  </li>
-                  <li class="communication__item">
-                    <div class="flex2-communication">
-                      <img src="img/email.svg" alt="" class="communication-email">
-                      <span class="communication-description">FriendlyHouse@gmail.com</span>
-                    </div>    
-                  </li>
-                </ul>
-                <p class="connection-description">Или оставь свои контакты и мы сами свяжемся с тобой!</p>
-              </div>
-              <fieldset class="action__fieldset">
-                <fieldset class="tel-fieldset">
-                  <label for="phone">Номер телефона</label>
-                  <input id="phone" type="tel" class="action__input" value=""> 
-                </fieldset>
-                <fieldset class="fieldset-email">
-                  <label for="email">E-mail</label>
-                  <input id="email" type="email" class="action__input" value="">
-                </fieldset>
-              </fieldset>
-              <div class="auto-button">
-                  <button class="action__button" type="submit">
-                    <img src="img/lapa-form.png" alt="Маленькая лапка" class="action__button-img">
-                    <p class="auto-button__description">Отправить</p>
-                  </button>
-              </div>
-            </div>
-          </div>
+    <div class="modalwindow">
+      <form class="modal-form modal" action="#">
+            <button class="cross">
+              <img src="img/cross.svg" alt="" class="cross__img">
+            </button>
+    <div class="wrapper-form">
+      <h2 class="modal__title">Ты можешь помочь нам!</h2>
+      <p class="modal__subtitle">Хочешь забрать питомца, стать волонтером, или опекуном? 
+      <span class="modal__span">Свяжись с нами!</span></p>
+      <ul class="modal__list">
+        <li class="modal__item">
+          <img src="img/call.svg" alt="Трубка" class="modal__item-img">
+          <p class = "modal__item-text">8 (849) 300 - 39 -57</p>
+        </li>
+        <li class="modal__item">
+          <img src="img/email.svg" alt="Письмо" class="modal__item-img">
+          <p class = "modal__item-text">FriendlyHouse@gmail.com</p>
+        </li>
+      </ul>
+      <p class="modal__subtitle">Или оставь свои контакты и мы сами свяжемся с тобой!</p>
 
+      <fieldset class="modal-fieldset">
+        <fieldset class="modal-phone">
+          <label for="phone">Номер телефона</label>
+          <input id="phone" name="phone" type="tel" class="modal__input" value="" placeholder="Номер телефона"> 
+        </fieldset>
 
-          <!-- <div class="container">
-              <div class="burger-menu">
-                <div class="burger-wrapper">
-                  <ul class="burger-menu__list">
-                    <li class="burger-menu__item">
-                      <a href="" class="burger-menu__link">О приюте</a>
-                    </li>
-                    <li class="burger-menu__item">
-                      <a href="" class="burger-menu__link">Наши проекты</a>
-                    </li>
-                    <li class="burger-menu__item">
-                      <a href="" class="burger-menu__link">Как ты можешь помочь нам?</a>
-                    </li>
-                    <li class="burger-menu__item">
-                      <a href="" class="burger-menu__link">Наши питомцы</a>
-                    </li>
-                    <li class="burger-menu__item">
-                      <a href="" class="burger-menu__link">Контакты</a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-          </div> -->
+        <fieldset class="modal-email">
+          <label for="email">E-mail</label>
+          <input id="email" type="email" name = "mail" class="modal__input" value="" placeholder="E-mail">
+        </fieldset>
+
+      </fieldset>
+      <div class="divmodal">
+        <button class="divmodal__button" type="submit">
+          <img src="img/lapa-form.png" alt="Маленькая лапка" class="divmodal__button-img">
+          <p class="divmodal__description">Отправить</p>
+        </button>
+      </div>
+    </div>
+  </form>
+    </div>
 </body>
 </html>

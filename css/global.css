@@ -12,8 +12,6 @@ body{
     line-height: 30px;
     color: var(--main-color,#282626);
     background-color: #fff;
-    /* background-color: var(--main-background,#f2f0f1); */
-    /* padding-top: 20px; */
 }
 
 .container{
@@ -111,3 +109,4 @@ label{
     font-size: 12px;
     line-height: 14px;
 }
+

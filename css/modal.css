@@ -5,7 +5,7 @@
 .burger-menu{
   display: none;
   width: 394px;
-  height: 491px;
+  height: 421px;
   background-color: #F2F0F1;
   border-bottom: 10px solid #FF8A00;
   position:absolute;
@@ -27,7 +27,8 @@
   font-weight: 550;
   line-height: 30px;
   color: #282626;
-  border-bottom: 1px solid #FF8A00;
-  margin-bottom: 15px;
+  font-weight: 550;
+  font-size: 20px;
+  border-bottom: 1px solid #FF8A00; 
 }
 
